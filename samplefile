@@ -1,5 +1,0 @@
- stage ('checkout')
-     {
-             checkout([$class: 'SubversionSCM', additionalCredentials: [], excludedCommitMessages: '', excludedRegions: '', excludedRevprop: '', excludedUsers: '', filterChangelog: false, ignoreDirPropChanges: false, includedRegions: '', locations: [[cancelProcessOnExternalsFail: true, credentialsId: '', depthOption: 'infinity', ignoreExternalsOption: true, local: '.', remote: 'http://192.168.33.12:8081/subversion/groovy']], quietOperation: true, workspaceUpdater: [$class: 'UpdateUpdater']])
-	             workspace =pwd()
-		     }
